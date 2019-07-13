@@ -1,37 +1,43 @@
-<!doctype HTML>
-	<html>
-		<head>
-			<title>
-				Home
-			</title>
-		</head>
-		<body>
-			<div class = "box1">.</div>
-			<div class = "box2">.</div>
-			<style>
-				.box1 {
-					background-color:white;
-					width:1200px;
-					height:880px;
-					margin-top:50px;
-					margin-left:50px;
-					border-radius: 10px;
-					display:inline-block;
-				}
-				.box2 {
-					background-color:white;
-					width:500px;
-					height:880px;
-					margin-top:50px;
-					margin-left:100px;
-					border-radius: 10px;
-					display:inline-block;
-				}
-				body {
-					background-image: url("BackgroundLogin.jpg");
-					background-repeat: no-repeat;
-					background-size: 2000px 1000px;
-				}
-			</style>
-		</body>
-	</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <style>
+        body {
+            background-image: url("https://raw.githubusercontent.com/aidan012/NewTab/master/BackgroundLogin.jpg");
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: 2000px 1000px;
+        }
+        
+        body .box {
+            background-color: white;
+            margin-top: 50px;
+            margin-left: 100px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        
+        body .box.box--1 {
+            width: 1200px;
+            height: 880px;
+        }
+        
+        body .box.box--2 {
+            width: 500px;
+            height: 880px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+    <div class="box box--1">.</div>
+    <div class="box box--2">.</div>
+</body>
+
+</html>
